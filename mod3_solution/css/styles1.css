@@ -78,7 +78,6 @@ article{
   padding: 15px;
   padding-bottom: 0;
   margin-bottom: 0;
-  font-weight: 2;
 }
 #chicken,#beef,#sushi{
   font-size: 1.5em;
@@ -109,4 +108,9 @@ article{
 }
 @media (min-width: 768px){
   #cntnt{padding-bottom: 15px;}
+}
+@media (min-width: 1400px){
+  .container{
+    width: 100%;
+  }
 }
